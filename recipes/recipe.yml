@@ -3,7 +3,7 @@ name: niriblue
 description: Custom niri image built on Fedora Atomic base
 
 base-image: quay.io/fedora-ostree-desktops/base-atomic
-image-version: 44@sha256:0bac0e57543b1aaf406ff3bcdbde1c2f9ee511c180083b36a9ef8ae77ce8d77f
+image-version: 44
 
 modules:
   - type: files
