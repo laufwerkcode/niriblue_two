@@ -24,9 +24,9 @@ dependency, and shrink the image.
 Install any Fedora Atomic or Bazzite into a VM (virt-manager on the host), then:
 
 ```sh
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/<owner>/niriblue:latest
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/laufwerkcode/niriblue:latest
 systemctl reboot
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/<owner>/niriblue:latest
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/laufwerkcode/niriblue:latest
 systemctl reboot
 ```
 
